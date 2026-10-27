@@ -13,6 +13,6 @@ describe('SidebarComponent', () => {
       </QuantunProvider>,
     )
 
-    expect(screen.getByText('PS')).toBeInTheDocument()
+    expect(screen.getByAltText('Logo')).toBeInTheDocument()
   })
 })
